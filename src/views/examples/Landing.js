@@ -26,6 +26,16 @@ import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
 
+// import bannerself from "assets/img/michael/banner-self.jpg";
+// import bannerspace from "assets/img/michael/banner-space.jpg";
+import busmall from "assets/img/brand/michael/busmall.png";
+// import face from "assets/img/michael/face.jpg";
+import horned from "assets/img/brand/michael/horned.png";
+import inspo from "assets/img/brand/michael/inspo.png";
+import salmon from "assets/img/brand/michael/salmon.png";
+
+
+
 // reactstrap components
 import {
   Badge,
@@ -143,26 +153,22 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
+                          <img src={horned} width={275} />
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Gallery of Horns
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              React
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              JavaScript
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              HTML
                             </Badge>
                           </div>
                           <Button
@@ -179,26 +185,54 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
-                          <h6 className="text-success text-uppercase">
-                            Build Something
+                        <img src={inspo} width={275} />
+                          <h6 className="text-primary text-uppercase">
+                            Inspiration Hub
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                          </p>
+                          <div>
+                            <Badge color="primary" pill className="mr-1">
+                              JavaScript
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              Tailwind
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              HTML
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <img src={salmon} width={275} />
+                          <h6 className="text-success text-uppercase">
+                            Salmon Cookies
+                          </h6>
+                          <p className="description mt-3">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              HTML
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              CSS
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              JavaScript
                             </Badge>
                           </div>
                           <Button
@@ -215,26 +249,22 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
+                        <img src={busmall} width={275} />
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Bus Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              HTML
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              CSS
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              JavaScript
                             </Badge>
                           </div>
                           <Button
